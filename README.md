@@ -1,6 +1,6 @@
-# Dracula for [TextMate](http://macromates.com)
+# Dracula for [TextMate 2](http://macromates.com)
 
-> A dark theme for [TextMate](http://macromates.com).
+> A dark theme for [TextMate 2](http://macromates.com).
 
 ![Screenshot](https://draculatheme.com/assets/img/screenshots/textmate.png)
 
