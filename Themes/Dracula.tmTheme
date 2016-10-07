@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>Zeno Rocha</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
 	<key>comment</key>
 	<string>Dracula Theme v1.2.5
 
@@ -15,15 +19,31 @@ http://zenorocha.mit-license.org
 @author Zeno Rocha &lt;hi@zenorocha.com&gt;</string>
 	<key>name</key>
 	<string>Dracula</string>
+	<key>semanticClass</key>
+	<string>theme.dark.dracula</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
+				<key>activeGuide</key>
+				<string>#9D550FB0</string>
 				<key>background</key>
 				<string>#282a36</string>
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
 				<key>caret</key>
 				<string>#f8f8f0</string>
+				<key>findHighlight</key>
+				<string>#effb7b</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
 				<key>foreground</key>
 				<string>#f8f8f2</string>
 				<key>invisibles</key>
@@ -32,22 +52,8 @@ http://zenorocha.mit-license.org
 				<string>#44475a</string>
 				<key>selection</key>
 				<string>#44475a</string>
-				<key>findHighlight</key>
-				<string>#effb7b</string>
-				<key>findHighlightForeground</key>
-				<string>#000000</string>
 				<key>selectionBorder</key>
 				<string>#222218</string>
-				<key>activeGuide</key>
-				<string>#9D550FB0</string>
-				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketsOptions</key>
-				<string>underline</string>
-				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketContentsOptions</key>
-				<string>underline</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
 			</dict>
@@ -59,10 +65,10 @@ http://zenorocha.mit-license.org
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#6272a4</string>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#6272a4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -289,7 +295,7 @@ http://zenorocha.mit-license.org
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class&#x2f;type</string>
+			<string>Library class/type</string>
 			<key>scope</key>
 			<string>support.type, support.class</string>
 			<key>settings</key>
@@ -523,11 +529,5 @@ http://zenorocha.mit-license.org
 	</array>
 	<key>uuid</key>
 	<string>83091B89-765E-4F0D-9275-0EC6CB084126</string>
-	<key>colorSpaceName</key>
-	<string>sRGB</string>
-	<key>semanticClass</key>
-	<string>theme.dark.dracula</string>
-	<key>author</key>
-	<string>Zeno Rocha</string>
 </dict>
 </plist>
