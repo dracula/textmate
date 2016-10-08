@@ -299,17 +299,6 @@ http://zenorocha.mit-license.org
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CFCFC2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>diff.header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header, meta.diff.index, meta.diff.range</string>
@@ -364,7 +353,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
+			<string>meta.structure.dictionary.json &gt; string &gt; punctuation.definition.string.*.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -375,7 +364,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON Structure</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<string>meta.structure.dictionary.json &gt; string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -386,7 +375,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON String</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+			<string>meta.structure.dictionary.value.json &gt; string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -397,7 +386,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON: 6 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -408,7 +397,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON: 5 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -419,7 +408,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON: 4 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -430,7 +419,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON: 3 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -441,7 +430,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON: 2 deep</string>
 			<key>scope</key>
-			<string>meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -452,7 +441,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>JSON:  1 deep</string>
 			<key>scope</key>
-			<string>meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
