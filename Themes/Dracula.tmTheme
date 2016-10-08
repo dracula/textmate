@@ -116,7 +116,7 @@ http://zenorocha.mit-license.org
 			<key>name</key>
 			<string>String interpolation</string>
 			<key>scope</key>
-			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
+			<string>constant.character.escape, string meta.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
