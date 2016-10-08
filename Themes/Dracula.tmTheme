@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- Dracula Theme v1.2.5
-#
-# https://github.com/zenorocha/dracula-theme
-#
-# Copyright 2016, All rights reserved
-#
-# Code licensed under the MIT license
-# http://zenorocha.mit-license.org
-#
-# @author Zeno Rocha <hi@zenorocha.com>
--->
-
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>Zeno Rocha</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>comment</key>
+	<string>Dracula Theme v1.2.5
+
+https://github.com/zenorocha/dracula-theme
+
+Copyright 2016, All rights reserved
+
+Code licensed under the MIT license
+http://zenorocha.mit-license.org
+
+@author Zeno Rocha &lt;hi@zenorocha.com&gt;</string>
+	<key>gutterSettings</key>
+	<dict>
+		<key>background</key>
+		<string>#2d303d</string>
+		<key>divider</key>
+		<string>#23242f</string>
+		<key>foreground</key>
+		<string>#a6a6a9</string>
+		<key>selectionBackground</key>
+		<string>#44475A</string>
+		<key>selectionBorder</key>
+		<string>#44475A</string>
+		<key>selectionForeground</key>
+		<string>#DDDDE0</string>
+	</dict>
 	<key>name</key>
 	<string>Dracula</string>
+	<key>semanticClass</key>
+	<string>theme.dark.dracula</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -34,24 +53,6 @@
 				<string>#44475a</string>
 				<key>selection</key>
 				<string>#44475a</string>
-				<key>findHighlight</key>
-				<string>#effb7b</string>
-				<key>findHighlightForeground</key>
-				<string>#000000</string>
-				<key>selectionBorder</key>
-				<string>#222218</string>
-				<key>activeGuide</key>
-				<string>#9D550FB0</string>
-				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketsOptions</key>
-				<string>underline</string>
-				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketContentsOptions</key>
-				<string>underline</string>
-				<key>tagsOptions</key>
-				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,8 +64,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#6272a4</string>
-				<key>fontStyle</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -116,11 +115,6 @@
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -129,8 +123,6 @@
 			<string>variable.other.readwrite.instance</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ffb86c</string>
 			</dict>
@@ -139,11 +131,9 @@
 			<key>name</key>
 			<string>String interpolation</string>
 			<key>scope</key>
-			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
+			<string>constant.character.escape, string meta.embedded</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ff79c6</string>
 			</dict>
@@ -166,8 +156,6 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ff79c6</string>
 			</dict>
@@ -189,7 +177,7 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -218,8 +206,6 @@
 			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#50fa7b</string>
 			</dict>
@@ -244,8 +230,6 @@
 			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ff79c6</string>
 			</dict>
@@ -257,8 +241,6 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#50fa7b</string>
 			</dict>
@@ -270,8 +252,6 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#8be9fd</string>
 			</dict>
@@ -283,15 +263,13 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#6be5fd</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class&#x2f;type</string>
+			<string>Library class/type</string>
 			<key>scope</key>
 			<string>support.type, support.class</string>
 			<key>settings</key>
@@ -307,11 +285,6 @@
 			<string>Library variable</string>
 			<key>scope</key>
 			<string>support.other.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -322,8 +295,6 @@
 			<dict>
 				<key>background</key>
 				<string>#ff79c6</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
@@ -343,22 +314,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CFCFC2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>diff.header</string>
 			<key>scope</key>
-			<string>meta.diff, meta.diff.header</string>
+			<string>meta.diff, meta.diff.header, meta.diff.index, meta.diff.range</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#282a36</string>
 				<key>foreground</key>
 				<string>#6272a4</string>
 			</dict>
@@ -370,6 +332,8 @@
 			<string>markup.deleted</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#282a36</string>
 				<key>foreground</key>
 				<string>#ff79c6</string>
 			</dict>
@@ -381,6 +345,8 @@
 			<string>markup.inserted</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#282a36</string>
 				<key>foreground</key>
 				<string>#50fa7b</string>
 			</dict>
@@ -392,42 +358,17 @@
 			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#282a36</string>
 				<key>foreground</key>
 				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>constant.numeric.line-number.find-in-files - match</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#bd93f9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>entity.name.filename</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>message.error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F83333</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>JSON Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
+			<string>meta.structure.dictionary.json &gt; string &gt; punctuation.definition.string.*.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -438,7 +379,7 @@
 			<key>name</key>
 			<string>JSON Structure</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<string>meta.structure.dictionary.json &gt; string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -449,7 +390,7 @@
 			<key>name</key>
 			<string>JSON String</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+			<string>meta.structure.dictionary.value.json &gt; string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -460,7 +401,7 @@
 			<key>name</key>
 			<string>JSON: 6 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -471,7 +412,7 @@
 			<key>name</key>
 			<string>JSON: 5 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -482,7 +423,7 @@
 			<key>name</key>
 			<string>JSON: 4 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -493,7 +434,7 @@
 			<key>name</key>
 			<string>JSON: 3 deep</string>
 			<key>scope</key>
-			<string>meta meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -504,7 +445,7 @@
 			<key>name</key>
 			<string>JSON: 2 deep</string>
 			<key>scope</key>
-			<string>meta meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -515,7 +456,7 @@
 			<key>name</key>
 			<string>JSON:  1 deep</string>
 			<key>scope</key>
-			<string>meta meta.structure.dictionary.value string</string>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -525,11 +466,5 @@
 	</array>
 	<key>uuid</key>
 	<string>83091B89-765E-4F0D-9275-0EC6CB084126</string>
-	<key>colorSpaceName</key>
-	<string>sRGB</string>
-	<key>semanticClass</key>
-	<string>theme.dracula</string>
-	<key>author</key>
-	<string>Zeno Rocha</string>
 </dict>
 </plist>
