@@ -528,7 +528,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dracula</string>
+	<string>theme.dark.dracula</string>
 	<key>author</key>
 	<string>Zeno Rocha</string>
 </dict>
