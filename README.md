@@ -2,7 +2,7 @@
 
 > A dark theme for [TextMate 2](http://macromates.com).
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/textmate.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
