@@ -4,11 +4,11 @@
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-    $ git clone https://github.com/dracula/textmate.git
+    git clone https://github.com/dracula/textmate.git
 
 The default branch is for TextMate 2. If you need to use the TextMate 1 version, you need to checkout the v1 branch.
 
-    $ git checkout v1
+    git checkout v1
 
 #### Install manually
 
